@@ -1,2 +1,4 @@
-clang main.c -o sandbox
-./sandbox
+language: c
+compiler:
+  - clang
+script: clang main.c -o sandbox
