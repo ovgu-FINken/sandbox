@@ -2,3 +2,5 @@ language: c
 compiler:
   - clang
 script: clang main.c -o sandbox
+notifications:
+  email: false
